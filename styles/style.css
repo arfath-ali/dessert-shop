@@ -139,9 +139,12 @@ body {
 
     /*visual*/
     border-radius: 50px;
+    outline: none;
+    box-shadow: none;
 
     /*Interactions*/
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn__text {
@@ -599,6 +602,13 @@ body {
 
     /*Box Model*/
     padding: 1rem;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .btn:focus {
+        outline: none;
+        box-shadow: none;
+    }
 }
 
 @media (min-width: 37.5rem) {
