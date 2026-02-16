@@ -1,3 +1,3 @@
-import { initShoppingEvents } from './src/js/features/shoppingEvents.js';
+import { initShoppingEvents } from './features/shoppingEvents.js';
 
 initShoppingEvents();
