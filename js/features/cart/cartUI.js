@@ -11,7 +11,7 @@ export function renderCartItemUI(productCard) {
   const productPrice = productCard.querySelector('.product-card__price');
   const totalProductPrice =
     Number(productQuantity.value) * Number(productPrice.value);
-  const removeIcon = './images/icon-remove-item.svg';
+  const removeIcon = 'images/icon-remove-item.svg';
 
   DOM.cartList.insertAdjacentHTML(
     'beforeend',

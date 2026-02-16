@@ -2,7 +2,7 @@ import DOM from '../../core/dom.js';
 
 export function orderConfirmation() {
   const cartList = DOM.cartList;
-  const orderConfirmationIcon = './images/icon-order-confirmed.svg';
+  const orderConfirmationIcon = 'images/icon-order-confirmed.svg';
   const totalOrderValue = DOM.cartTotalOrderValue.value;
   window.scrollTo(0, 0);
 
@@ -44,7 +44,7 @@ export function orderConfirmation() {
       'beforeend',
       `<li class="confirmation-list__item">
         <div class="confirmation-list__item-content">
-          <img src='./images/image-${productImage}-thumbnail.jpg' class="confirmation-list__item-image"/>
+          <img src='images/image-${productImage}-thumbnail.jpg' class="confirmation-list__item-image"/>
           <div class="confirmation-list__item-info">
             <h3 class="confirmation-list__item-title"> ${productTitle}</h3>
               <div class="confirmation-list__pricing">
